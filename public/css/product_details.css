@@ -1,0 +1,136 @@
+
+.product-content {
+    border: 1px solid #dfe5e9;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    background: #fff
+}
+.product-content .carousel-control.left {
+    margin-left: 0
+}
+.product-content .product-image {
+    background-color: #fff;
+    display: block;
+    min-height: 238px;
+    overflow: hidden;
+    position: relative
+}
+.product-content .product-deatil {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #fff
+}
+
+.product-content .product-deatil h5 a {
+    color: #2f383d;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.product-content .product-deatil h5 a span {
+    color: #9aa7af;
+    display: block;
+    font-size: 13px
+}
+
+.product-content .description {
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 10px 14px 16px 19px;
+    background: #fff
+}
+
+.product-content name.a {
+    padding: 5px 10px;
+    margin-left: 16px
+}
+
+.product-wrap .product-image span.sale {
+    background-color: #57889c
+}
+
+.description-tabs {
+    padding: 30px 0 5px !important
+}
+
+.description-tabs .tab-content {
+    padding: 10px 0
+}
+
+.product-deatil {
+    padding: 30px 30px 50px
+}
+
+.product-deatil hr+.description-tabs {
+    padding: 0 0 5px !important
+}
+
+.product-deatil .carousel-control.left,
+.product-deatil .carousel-control.right {
+    background: none !important
+}
+
+.product-deatil .glyphicon {
+    color: #3276b1
+}
+
+.product-deatil .product-image {
+    border-right: none !important
+}
+
+.product-deatil .name {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.product-deatil .name small {
+    display: block
+}
+
+.product-deatil .name a {
+    margin-left: 0
+}
+
+.product-deatil .fa-2x {
+    font-size: 16px !important
+}
+
+.product-deatil .fa-2x>h5 {
+    font-size: 12px;
+    margin: 0
+}
+
+.product-deatil .fa-2x+a,
+.product-deatil .fa-2x+a+a {
+    font-size: 13px
+}
+
+
+@media only screen and (min-width:1024px) {
+    .product-content div[class*=col-md-4] {
+        padding-right: 0
+    }
+
+    .product-content div[class*=col-md-8] {
+        padding: 0 13px 0 0
+    }
+
+    .product-wrap div[class*=col-md-5] {
+        padding-right: 0
+    }
+
+    .product-wrap div[class*=col-md-7] {
+        padding: 0 13px 0 0
+    }
+
+    .product-content .product-image {
+        border-right: 1px solid #dfe5e9
+    }
+}
+
